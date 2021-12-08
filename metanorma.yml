@@ -1,0 +1,9 @@
+---
+metanorma:
+  source:
+    files:
+      - sources/document.adoc
+
+  collection:
+    organization: "OGC: The Open Geospatial Consortium"
+    name: "OGC Developer Workshop on Metanorma"
