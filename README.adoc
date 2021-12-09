@@ -1,0 +1,108 @@
+= OGC Developers Workshop: Authoring OGC Standards with Metanorma
+
+image:https://github.com/metanorma/ogc-development-workshop/workflows/build/badge.svg["Build Status", link="https://github.com/metanorma/ogc-development-workshop/actions?query=workflow%3Abuild"]
+
+Available in its rendered form here:
+
+* https://metanorma.github.io/ogc-development-workshop/[Document site (HTML)]
+
+
+== Scope
+
+This is content used for the Metanorma workshop session run at the OGC
+Developers Workshop hosted at the
+https://portal.ogc.org/meet/[121st OGC Member Meeting].
+
+This repository contains the OGC 18-095r7 Community Standard in Metanorma
+format.
+
+
+== Structure
+
+`metanorma.yml`:: configuration file for site builds
+
+`sources/`:: source of the document
+
+`site/`::
+(automatically generated when running `metanorma site generate`)
+generated Metanorma output from `sources/`.
+
+
+== Usage
+
+=== Pre-requisites
+
+Install Metanorma as described at https://www.metanorma.org/install.
+
+* https://www.metanorma.org/install/docker/[Docker/Linux]
+
+* https://www.metanorma.org/install/macos/[macOS]
+
+* https://www.metanorma.org/install/windows/[Windows]
+
+
+=== Compiling
+
+For local installs, run:
+
+[source,sh]
+----
+metanorma site generate --agree-to-terms
+----
+
+Docker on Linux/macOS:
+
+[source,sh]
+----
+docker run \
+  -v "$(pwd)":/metanorma \
+  -v "${HOME}/.fontist/fonts":/config/fonts \
+  -w /metanorma \
+  metanorma/mn \
+  metanorma metanorma site generate --agree-to-terms
+----
+
+Docker on Windows (cmd) run:
+
+[source,sh]
+----
+docker run ^
+  -v %cd%:/metanorma ^
+  -v %USERPROFILE%\.fontist\fonts:/config/fonts ^
+  -w /metanorma ^
+  -it ^
+  metanorma/mn ^
+  metanorma site generate --agree-to-terms
+----
+
+
+== Tasks to be done!
+
+Now that we can compile let’s try updating it.
+
+. Let's pretend we want to update this document to satisfy the latest rules.
+How do we fix these?
+
+** Terms and definitions should be in Clause 3
+** Missing submitter organizations
+
+. Can we get rid of these warnings?
++
+----
+Metanorma XML Style Warning: (XML Line 000227): Hanging paragraph in clause
+Metanorma XML Style Warning: (XML Line 000678): Hanging paragraph in clause
+Metanorma XML Style Warning: (XML Line 000794): Hanging paragraph in clause
+Metanorma XML Style Warning: (XML Line 001195): Figure should have title
+Metanorma XML Style Warning: (XML Line 000091): Table should have title
+Metanorma XML Style Warning: (XML Line 001349): Table should have title
+----
+
+
+
+
+== License
+
+These documents are privately shared by OGC and the copyright of such
+documents (as well as their converted text) remain unchanged.
+
+All other code and information, copyright Ribose.
