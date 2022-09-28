@@ -17,16 +17,7 @@ interface.
 
 === Core Access Interoperability
 
-[[req_10]]
-[requirement]
-====
-[%metadata]
-model:: ogc
-type:: general
-label:: https://opengeospatial.org/bp/datacubes/Req10
-
-A Geospatial Coverage Data Cube service interface for data access shall be compliant with OGC Web Coverage Service (WCS).
-====
+include::../req/core/Req10.adoc[]
 
 
 The primary access method to a geospatial data cube is using the interface defined in the
@@ -45,17 +36,8 @@ Ready Data (ARD) data choices are based on the analysis needs agreed by their ta
 user community. The Data Cube will need to support formats typically used by the ARD
 community.
 
+include::../req/core/Req11.adoc[]
 
-[[req_11]]
-[requirement]
-====
-[%metadata]
-model:: ogc
-type:: general
-label:: https://opengeospatial.org/bp/datacubes/Req13
-
-A Geospatial Coverage Data Cube shall support encodings that are defined in open consensus standards and that are used by the community targeted.
-====
 
 To support the variety of data formats, the WCS standard includes extensions mapping
 the information model to the format, e.g., GeoTIFF, netCDF, JPEG2000, GMLJP2, JPIP,
@@ -65,16 +47,9 @@ and GRIB2.
 [[scls_10-2]]
 === Interoperability for Analysis
 
-[[req_12]]
-[requirement]
-====
-[%metadata]
-model:: ogc
-type:: general
-label:: https://opengeospatial.org/bp/datacubes/Req12
+include::../req/analysis.adoc[]
 
-A Geospatial Coverage Data Cube service interface for data analytics shall support OGC WCS Processing Extension (WCS-P) and/or OGC Web Processing Service (WPS).
-====
+include::../req/analysis/Req12.adoc[]
 
 When a geospatial data cube provides user-specified analytics on the data it holds, the
 data cube may use the WCS-P extension [WCS-P 2014] which extends the WCS using on
@@ -103,16 +78,9 @@ to perform data cube analytics. Further developments are described in <<scls_11-
 
 === Interoperability for Visualization
 
-[[req_13]]
-[requirement]
-====
-[%metadata]
-model:: ogc
-type:: general
-label:: https://opengeospatial.org/bp/datacubes/Req13
+include::../req/visualization.adoc[]
 
-A Geospatial Coverage Data Cube service interface for maps shall be compliant with OGC Map Service (WMS) or OGC Web Map Tile Service (WMTS)
-====
+include::../req/visualization/Req13.adoc[]
 
 When a geospatial coverage data cube provides access to maps of the data it holds, the
 data cube shall use the using the interfaces defined in the OGC Web Map Service [<<WMS_2006>>] or the OGC Web Map Tile Service [<<WMTS_2010>>].

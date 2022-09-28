@@ -1,0 +1,9 @@
+
+[requirement]
+====
+[%metadata]
+identifier:: /req/core/Req01
+
+A Geospatial Data Cube shall use the Geographic Coverage model as defined in OGC
+Coverage Implementation Schema (CIS).
+====

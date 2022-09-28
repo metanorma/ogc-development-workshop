@@ -1,0 +1,22 @@
+
+[conformance_class]
+.Analytics Extension
+====
+[%metadata]
+identifier:: /conf/core
+target:: /req/core
+description:: Implementations claiming Core Conformance shall be conformant with
+the requirements listed in this clause.
+
+conformance-test:: /conf/core/Req01
+conformance-test:: /conf/core/Req02
+conformance-test:: /conf/core/Req03
+conformance-test:: /conf/core/Req04
+conformance-test:: /conf/core/Req05
+conformance-test:: /conf/core/Req06
+conformance-test:: /conf/core/Req07
+conformance-test:: /conf/core/Req08
+conformance-test:: /conf/core/Req09
+conformance-test:: /conf/core/Req10
+conformance-test:: /conf/core/Req11
+====

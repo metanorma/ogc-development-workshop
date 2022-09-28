@@ -1,0 +1,8 @@
+
+[conformance_test]
+====
+[%metadata]
+identifier:: /conf/analytics/Req12
+target:: /req/analytics/Req12
+description:: TODO
+====

@@ -1,0 +1,10 @@
+
+[requirement]
+====
+[%metadata]
+identifier:: /req/core/Req05
+
+A Geospatial Coverage Data Cube Service shall support analytics on all domain
+axes alike, irrespective of the nature of the dimension, e.g. spatial or
+temporal.
+====

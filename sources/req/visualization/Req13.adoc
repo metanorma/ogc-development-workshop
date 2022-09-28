@@ -1,0 +1,8 @@
+
+[requirement]
+====
+[%metadata]
+identifier:: /req/visualization/Req13
+description:: A Geospatial Coverage Data Cube service interface for maps shall
+be compliant with OGC Map Service (WMS) or OGC Web Map Tile Service (WMTS)
+====

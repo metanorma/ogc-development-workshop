@@ -11,7 +11,10 @@ notes regarding how to read the document.
 The normative provisions in this specification are denoted by the Uniform Resource
 Indicator (URI):
 
-`http://www.opengis.net/bp/datacubes/ReqXX`
+[source]
+----
+http://www.opengis.net/bp/datacubes/ReqXX
+----
 
 All requirements and conformance tests that appear in this document are denoted by
 partial URIs which are relative to this base.

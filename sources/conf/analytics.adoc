@@ -1,0 +1,14 @@
+
+[conformance_class]
+.Analytics Extension
+====
+[%metadata]
+identifier:: /conf/analytics
+target:: /req/analytics
+description:: Implementations claiming Analytics Extension Conformance shall be
+conformant with the requirements listed in the Core Conformance and in this
+clause.
+inherit:: /conf/core
+
+conformance-test:: /conf/analytics/Req12
+====

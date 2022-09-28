@@ -1,0 +1,10 @@
+
+[requirement]
+====
+[%metadata]
+identifier:: /req/core/Req11
+
+A Geospatial Coverage Data Cube shall support encodings that are defined in open
+consensus standards and that are used by the community targeted.
+====
+

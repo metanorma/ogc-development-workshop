@@ -3,52 +3,48 @@
 [appendix,obligation="normative"]
 == Conformance Class Abstract Test Suite
 
+Compliance of the data cube to OGC Web Service Standards shall be certified
+using the OGC Compliance Test suite.
+http://www.opengeospatial.org/compliance/getCertified
+
+
 === Conformance class: Core Geospatial Data Cube
 
-Implementations claiming Core Conformance shall be conformant with the requirements listed in this clause.
+include::../conf/core.adoc[]
 
-Compliance of the data cube to OGC Web Service Standards shall be certified using the OGC Compliance Test suite. http://www.opengeospatial.org/compliance/getCertified
+include::../conf/core/Req01.adoc[]
 
-* <<req_1>>
+include::../conf/core/Req02.adoc[]
 
-* <<req_2>>
+include::../conf/core/Req03.adoc[]
 
-* <<req_3>>
+include::../conf/core/Req04.adoc[]
 
-* <<req_4>>
+include::../conf/core/Req05.adoc[]
 
-* <<req_5>>
+include::../conf/core/Req06.adoc[]
 
-* <<req_6>>
+include::../conf/core/Req07.adoc[]
 
-* <<req_7>>
+include::../conf/core/Req08.adoc[]
 
-* <<req_8>>
+include::../conf/core/Req09.adoc[]
 
-* <<req_9>>
+include::../conf/core/Req10.adoc[]
 
-* <<req_10>>
-
-* <<req_11>>
+include::../conf/core/Req11.adoc[]
 
 
 === Conformance class: Analytics Extension
 
-Implementations claiming Analytics Extension Conformance shall be conformant with
-the requirements listed in the Core Conformance and in this clause.
+include::../conf/analytics.adoc[]
 
-Compliance of the data cube to OGC Web Service Standards shall be certified using the
-OGC Compliance Test suite. http://www.opengeospatial.org/compliance/getCertified
+include::../conf/analytics/Req12.adoc[]
 
-* <<req_12>>
 
 
 === Conformance class: Visualization Extension
 
-Implementations claiming Visualization Extension Conformance shall be conformant
-with the requirements listed in the Core Conformance and in this clause.
+include::../conf/visualization.adoc[]
 
-Compliance of the data cube to OGC Web Service Standards shall be certified using the
-OGC Compliance Test suite. http://www.opengeospatial.org/compliance/getCertified
-
-* <<req_13>>
+include::../conf/visualization/Req13.adoc[]

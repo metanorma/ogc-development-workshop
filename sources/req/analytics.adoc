@@ -1,0 +1,11 @@
+
+[requirements_class]
+====
+[%metadata]
+identifier:: /req/analytics
+subject:: Implementation of Logical Model
+inherit:: /req/core
+description:: Interoperability for analytics
+
+requirement:: /req/analytics/Req12
+====

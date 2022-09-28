@@ -1,0 +1,11 @@
+
+[requirement]
+====
+[%metadata]
+identifier:: /req/core/Req04
+
+A Geospatial Coverage Data Cube shall provide metadata for the user that defines
+the provenance of all source data, data preparation methods applied and data
+structure of the cube. If applicable, the metadata shall be defined in
+accordance with ISO 19115.
+====

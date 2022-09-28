@@ -1,0 +1,9 @@
+
+[requirement]
+====
+[%metadata]
+identifier:: /req/core/Req08
+
+A Geospatial Coverage Data Cube Service shall allow tuning of performance to
+anticipated user query patterns.
+====

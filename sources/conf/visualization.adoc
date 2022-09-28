@@ -1,0 +1,14 @@
+
+[conformance_class]
+.Visualization Extension
+====
+[%metadata]
+identifier:: /conf/visualization
+target:: /req/visualization
+description:: Implementations claiming Visualization Extension Conformance shall
+be conformant with the requirements listed in the Core Conformance and in this
+clause.
+inherit:: /conf/core
+
+conformance-test:: /conf/visualization/Req13
+====

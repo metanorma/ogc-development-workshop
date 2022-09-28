@@ -1,0 +1,11 @@
+
+[requirements_class]
+====
+[%metadata]
+identifier:: /req/visualization
+subject:: Implementation of Logical Model
+inherit:: /req/core
+description:: Interoperability for Visualization
+
+requirement:: /req/visualization/Req13
+====

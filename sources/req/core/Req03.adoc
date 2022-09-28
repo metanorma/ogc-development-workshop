@@ -1,0 +1,10 @@
+
+[requirement]
+====
+[%metadata]
+identifier:: /req/core/Req03
+
+When ingesting data, a Geospatial Coverage Data Cube shall provide methods for
+data storage and access optimizations consistent with the Geospatial Coverage
+Data Cube Information Model.
+====

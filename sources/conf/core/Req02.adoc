@@ -1,0 +1,8 @@
+
+[conformance_test]
+====
+[%metadata]
+identifier:: /conf/core/Req02
+target:: /req/core/Req02
+description:: TODO
+====

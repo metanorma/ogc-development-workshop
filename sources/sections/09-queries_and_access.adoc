@@ -7,18 +7,7 @@ user needs. Key to the value is that the user need not have detailed knowledge o
 source data structure and observation artifacts. This section defines Geospatial Coverage
 Data Cube analytics in terms of data access methods and queries.
 
-
-[[req_5]]
-[requirement]
-====
-[%metadata]
-model:: ogc
-type:: general
-label:: https://opengeospatial.org/bp/datacubes/Req05
-
-A Geospatial Coverage Data Cube Service shall support analytics on all domain axes alike, irrespective of the nature of the dimension, e.g. spatial or temporal.
-====
-
+include::../req/core/Req05.adoc[]
 
 In the past, most standards as well as implementations had dedicated methods for spatial
 extraction and different ones for temporal extraction. Data cubes, on the contrary, offer
@@ -28,32 +17,13 @@ along all axes. Note that this is not withstanding different units of measure - 
 might be measured in degrees like 42°30’, time in days like 2017-06-06, height in flight
 levels like FL100.
 
+include::../req/core/Req06.adoc[]
 
-[[req_6]]
-[requirement]
-====
-[%metadata]
-model:: ogc
-type:: general
-label:: https://opengeospatial.org/bp/datacubes/Req06
+include::../req/core/Req07.adoc[]
 
-A Geospatial Coverage Data Cube Service shall allow efficient trimming and slicing along any number of axes from a data cube in a single request by the user.
-====
-
-
-[[req_7]]
-[requirement]
-====
-[%metadata]
-model:: ogc
-type:: general
-label:: https://opengeospatial.org/bp/datacubes/Req07
-
-A Geospatial Coverage Data Cube Service shall not allow requests that require excessive resources, responding to the user with an estimate of the resource requirements and/or recommendations on how to reduce resources.
-====
-
-
-Operations on a data cube can be trim or slice operations or other analytics. Users from most Earth Science communities are interested in performing both request types efficiently and fast [<<Wagemann_2017>>].
+Operations on a data cube can be trim or slice operations or other analytics.
+Users from most Earth Science communities are interested in performing both
+request types efficiently and fast [<<Wagemann_2017>>].
 
 * Trimming: a cut-out of the same dimensionality (e.g., a regional subset of a larger
 multiband image).
@@ -66,17 +36,7 @@ image, or a time series of feature values at a single location).
 .Data cube trimming (left) and slicing (right) [<<Baumann_2018>>]
 image::images/fig2.png[]
 
-
-[[req_8]]
-[requirement]
-====
-[%metadata]
-model:: ogc
-type:: general
-label:: https://opengeospatial.org/bp/datacubes/Req08
-
-A Geospatial Coverage Data Cube Service shall allow tuning of performance to anticipated user query patterns.
-====
+include::../req/core/Req08.adoc[]
 
 Traditional storage, for example, has been optimized for horizontal access, penalizing
 temporal and vertical extraction.
@@ -89,18 +49,7 @@ neutrality [<<Stefano_2017>>].
 This document makes no quantitative performance requirements. The emphasis is on
 functionality. Optimization as a capability shall be supported.
 
-
-[[req_9]]
-[requirement]
-====
-[%metadata]
-model:: ogc
-type:: general
-label:: https://opengeospatial.org/bp/datacubes/Req09
-
-A Geospatial Coverage Data Cube Service shall provide server-side analytic processing on the data including composite extraction, processing, filtering, and fusion tasks in an ad-hoc fashion.
-====
-
+include::../req/core/Req09.adoc[]
 
 Different Earth Science disciplines require processing operations of different kinds. The
 climate science community, for example, is interested in generating anomalies and

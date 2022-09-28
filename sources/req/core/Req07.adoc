@@ -1,0 +1,10 @@
+
+[requirement]
+====
+[%metadata]
+identifier:: /req/core/Req07
+
+A Geospatial Coverage Data Cube Service shall not allow requests that require
+excessive resources, responding to the user with an estimate of the resource
+requirements and/or recommendations on how to reduce resources.
+====

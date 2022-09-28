@@ -1,0 +1,9 @@
+
+[requirement]
+====
+[%metadata]
+identifier:: /req/core/Req02
+
+A Geospatial Coverage Data Cube Service shall host geospatial data cubes and
+support services on the data when requested.
+====

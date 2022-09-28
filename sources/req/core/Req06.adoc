@@ -1,0 +1,10 @@
+
+[requirement]
+====
+[%metadata]
+identifier:: /req/core/Req06
+
+A Geospatial Coverage Data Cube Service shall allow efficient trimming and
+slicing along any number of axes from a data cube in a single request by the
+user.
+====

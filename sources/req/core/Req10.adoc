@@ -1,0 +1,8 @@
+
+[requirement]
+====
+[%metadata]
+identifier:: /req/core/Req10
+
+A Geospatial Coverage Data Cube service interface for data access shall be compliant with OGC Web Coverage Service (WCS).
+====

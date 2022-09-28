@@ -29,16 +29,7 @@ coordinate system measures time system based on an interval scale on which dista
 measured as a multiple of a single unit of time. Ordinal temporal reference systems and
 calendars need not be supported.
 
-[[req_1]]
-[requirement]
-====
-[%metadata]
-model:: ogc
-type:: general
-label:: https://opengeospatial.org/bp/datacubes/Req01
-
-A Geospatial Data Cube shall use the Geographic Coverage model as defined in OGC Coverage Implementation Schema (CIS).
-====
+include::../req/core/Req01.adoc[]
 
 The Coverage Implementation Schema (CIS) specification [<<OGC_2017>>] establishes a
 concrete, interoperable, conformance-testable Coverage. CIS is based on the abstract

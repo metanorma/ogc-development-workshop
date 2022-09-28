@@ -1,0 +1,10 @@
+
+[requirement]
+====
+[%metadata]
+identifier:: /req/core/Req09
+
+A Geospatial Coverage Data Cube Service shall provide server-side analytic
+processing on the data including composite extraction, processing, filtering,
+and fusion tasks in an ad-hoc fashion.
+====

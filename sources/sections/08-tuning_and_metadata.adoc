@@ -17,17 +17,7 @@ in a manner that is both algorithmically efficient and statistically
 meaningful.
 ____
 
-
-[[req_2]]
-[requirement]
-====
-[%metadata]
-model:: ogc
-type:: general
-label:: https://opengeospatial.org/bp/datacubes/Req02
-
-A Geospatial Coverage Data Cube Service shall host geospatial data cubes and support services on the data when requested.
-====
+include::../req/core/Req02.adoc[]
 
 
 Data store optimization is performed when ingesting data into a Data Cube Service. This
@@ -37,31 +27,13 @@ done in advance of user query and access. This allows administrators to specify 
 tuning parameters; on query level users are not bothered with such internal details, but it
 may have a substantial impact on performance.
 
-[[req_3]]
-[requirement]
-====
-[%metadata]
-model:: ogc
-type:: general
-label:: https://opengeospatial.org/bp/datacubes/Req03
-
-When ingesting data, a Geospatial Coverage Data Cube shall provide methods for data storage and access optimizations consistent with the Geospatial Coverage Data Cube Information Model.
-====
-
-For an example of data store ingest optimization, see the rasdaman storage layout language <<Baumann_2010>>
+include::../req/core/Req03.adoc[]
 
 
-[[req_4]]
-[requirement]
-====
-[%metadata]
-model:: ogc
-type:: general
-label:: https://opengeospatial.org/bp/datacubes/Req04
+For an example of data store ingest optimization, see the rasdaman storage
+layout language <<Baumann_2010>>.
 
-A Geospatial Coverage Data Cube shall provide metadata for the user that defines the provenance of all source data, data preparation methods applied and data structure of the cube. If applicable, the metadata shall be defined in accordance with ISO 19115.
-====
-
+include::../req/core/Req04.adoc[]
 
 Metadata are crucial to describe the data that are offered by a data cube. A user needs
 information to understand the data, for example, data provider, geospatial and temporal
