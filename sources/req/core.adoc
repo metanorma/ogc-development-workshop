@@ -1,0 +1,20 @@
+
+[requirements_class]
+====
+[%metadata]
+identifier:: /req/core
+subject:: Implementation of Logical Model
+description:: Core requirements
+
+requirement:: /req/core/Req01
+requirement:: /req/core/Req02
+requirement:: /req/core/Req03
+requirement:: /req/core/Req04
+requirement:: /req/core/Req05
+requirement:: /req/core/Req06
+requirement:: /req/core/Req07
+requirement:: /req/core/Req08
+requirement:: /req/core/Req09
+requirement:: /req/core/Req10
+requirement:: /req/core/Req11
+====

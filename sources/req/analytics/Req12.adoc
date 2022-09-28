@@ -1,8 +1,9 @@
 
 [requirement]
+.Data cube support for OGC WCS-P or OGC WPS
 ====
 [%metadata]
-identifier:: /req/visualization/Req12
+identifier:: /req/analytics/Req12
 
 A Geospatial Coverage Data Cube service interface for data analytics shall
 support OGC WCS Processing Extension (WCS-P) and/or OGC Web Processing Service

@@ -1,6 +1,6 @@
 
 [conformance_class]
-.Analytics Extension
+.Core
 ====
 [%metadata]
 identifier:: /conf/core

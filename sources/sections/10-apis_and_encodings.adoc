@@ -47,9 +47,9 @@ and GRIB2.
 [[scls_10-2]]
 === Interoperability for Analysis
 
-include::../req/analysis.adoc[]
+include::../req/analytics.adoc[]
 
-include::../req/analysis/Req12.adoc[]
+include::../req/analytics/Req12.adoc[]
 
 When a geospatial data cube provides user-specified analytics on the data it holds, the
 data cube may use the WCS-P extension [WCS-P 2014] which extends the WCS using on
